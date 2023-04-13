@@ -31,7 +31,6 @@
 
       html,body{
         height:100%;
-        overflow-y: hidden;
         overflow-x: hidden
       }
       .thank-you {
@@ -45,10 +44,11 @@
       text-align: center;
     }
     .thank-you {
-  position: ;
-  top: 100;
+  position:flex;
+  top: 57;
   left: 0;
   width: 100%;
+      z-index:2
 }
 
     .atenção {
@@ -63,19 +63,20 @@
       text-align: center;
     }
     .alert-bar {
-      background-color:#F39C19 ;
+      background-color:red;
       color: #fff;
       font-size: 25px;
       padding: 0px;
       text-align: center;
-      position: fixed;
+      position:flex;
     }
 
     .alert-bar {
   position: fixed;
-  top: 37;
+  top: 0;
   left: 0;
   width: 100%;
+      z-index:1;
 }
     
     /* estilo das caixas coloridas */
